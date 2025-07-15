@@ -22,8 +22,9 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+El backend de SheStockes es el motor central que gestiona toda la lógica de negocio y la persistencia de datos para tu aplicación de gestión de gastos personales. Su principal responsabilidad es asegurar que tus registros financieros sean almacenados, accedidos y manipulados de forma segura, eficiente y fiable.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Este servicio RESTful API proporciona los endpoints necesarios para que la parte frontend de SheStockes (o cualquier otro cliente) interactúe con tus datos de gastos.
 
 ## Project setup
 
