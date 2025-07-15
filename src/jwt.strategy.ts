@@ -12,7 +12,6 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
             secretOrKey: process.env.JWT_SECRET || 'default_secret',
         });
     }
-
     async validate(payload: any) {
         const user = await this.userService.findById(payload.id);
         if (!user) throw new UnauthorizedException('Usuario no valido');

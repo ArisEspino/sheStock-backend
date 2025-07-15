@@ -9,7 +9,7 @@ import * as bcrypt from 'bcrypt';
 @Injectable()
 export class UserService {
     constructor(
-        @InjectRepository(User)
+        @InjectRepository(User) 
         private readonly userRepository: Repository<User>,
     ) { }
     //create user, pasamos la clases de validacion, para la creacion.
